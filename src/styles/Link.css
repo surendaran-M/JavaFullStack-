@@ -1,0 +1,80 @@
+/* Link.css */
+.link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.link:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.link-primary {
+  color: #2563eb;
+}
+
+.link-primary:hover {
+  color: #1e40af;
+}
+
+.link-secondary {
+  color: #6c757d;
+}
+
+.link-secondary:hover {
+  color: #5a6268;
+}
+
+.link-success {
+  color: #28a745;
+}
+
+.link-success:hover {
+  color: #218838;
+}
+
+.link-danger {
+  color: #dc3545;
+}
+
+.link-danger:hover {
+  color: #c82333;
+}
+
+.link-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.link-underline {
+  text-decoration: underline;
+}
+
+.link-underline:hover {
+  text-decoration: none;
+}
+
+/* Navigation links */
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+}
+
+.nav-link.active {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
